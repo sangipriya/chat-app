@@ -1,0 +1,19 @@
+//Comparing two jason properties 
+
+const obj1 ={ name: "kalai", age:5};
+const key1 = Object.keys(obj1).sort();
+//console.log(key1);
+console.log(JSON.stringify(key1));
+
+const obj2 ={ name: "Kavitha", age:5};
+const key2 = Object.keys(obj2).sort();
+//console.log(key2);
+console.log(JSON.stringify(key2));
+
+if(JSON.stringify(key1)===JSON.stringify(key2))
+{
+    console.log("Equal");
+}
+else{
+    console.log("NotEqual");
+}
