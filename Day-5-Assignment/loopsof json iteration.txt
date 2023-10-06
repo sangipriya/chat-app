@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 for loop:
 
 let value=[1,2,3,4,5,6]
@@ -30,4 +31,38 @@ let value=["black","blue","green"]
 
 value.forEach(function(value,index) {
     console.log(value,index);
+=======
+for loop:
+
+let value=[1,2,3,4,5,6]
+
+for(let i=1; i<=value.length;i++){
+
+    console.log(i)
+}
+
+for in loop:
+
+let arr={name:"pri", age:25, job:"Medical Billing", Location:"Chennai", Designation:"AR analyst", FavColor:"black"};
+
+for(let key in arr){
+    console.log(arr[key]);
+}
+
+for of loop:
+
+let places=["himalaya","ooty","punjab","pune","mysore","maharasta","karnataka"]
+
+for (let place of places)
+{
+    console.log("Tourist place:"+" " + place);
+}
+
+for each loop:
+
+let value=["black","blue","green"]
+
+value.forEach(function(value,index) {
+    console.log(value,index);
+>>>>>>> 198b728a05ca7b0838f014009f5a926b94d62cf4
 })
