@@ -1,11 +1,9 @@
-anonymous function
-
-
+Anonymous function
 
 let my =function (a){
-    let arr=[]
+    
 for (let i=0;i<=a.length;i++){
-
+    let arr=[]
         if(a[i]%2!=0){
  
            arr.push(a[i])
